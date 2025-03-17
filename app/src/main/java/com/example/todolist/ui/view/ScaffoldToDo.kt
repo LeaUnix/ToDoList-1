@@ -18,7 +18,7 @@ fun ScaffoldToDo(){
             Column(
                 modifier = Modifier
                     .fillMaxSize()
-                    .padding(paddingValues) // Appliquer le padding fourni par Scaffold
+                    .padding(paddingValues) // Appliquer le padding fourni par Scaffold !
             ) {
                Body(modifier = Modifier)
             }
